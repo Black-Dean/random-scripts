@@ -1,4 +1,4 @@
-var total; var adults = parseInt(prompt("How many adults are there?")); var children = parseInt(prompt("How many children are there?")); // Declare all vars and asks for amount of children and adults
+var total, adults = parseInt(prompt("How many adults are there?")); var children = parseInt(prompt("How many children are there?")); // Declare all vars and asks for amount of children and adults
 if (isNaN(adults) || isNaN(children)) { // Checks if the input was a number
 	alert("Sorry but it seems as if you haven't entered your numbers correctly.")
 }else { 
