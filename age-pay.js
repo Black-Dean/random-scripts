@@ -1,4 +1,4 @@
-age = parseInt(prompt("How old are you? ")); // Asks for age
+var age = parseInt(prompt("How old are you? ")); // Asks for age
 if (isNaN(age)) { // Checks if input is not a number
 	alert("You did not enter a number.") // Tells them its not a number
 }
