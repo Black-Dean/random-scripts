@@ -1,5 +1,5 @@
 var amount = parseInt(prompt("How many numbers would you like to input? ")); // Ask for total amount of numbers
-var num = [];var i = 0; var avg; var total; // Declare all variables
+var num = [], i = 0, avg, total; // Declare the rest variables
 
 while (amount > i++) { // While loop to ask for numbers and make array
   var number = parseInt(prompt("Enter number " + i + ": "))
