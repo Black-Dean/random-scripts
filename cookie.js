@@ -1,4 +1,4 @@
-var flour = 1.50; var butter = 1.25; var eggs = 2.75; var sugar = 0.99; var flavour = 0.50; var fuel = 4.75; var paper = 2.50; var selling; // Declare majority of variables
+var flour = 1.50, butter = 1.25, eggs = 2.75, sugar = 0.99, flavour = 0.50, fuel = 4.75, paper = 2.50, selling; // Declare majority of variables
 
 var batchCost = flour + butter + eggs + sugar + flavour + fuel + paper; // Add all products to get batch cost
 var cookieCost = (batchCost / 50); // Get cost per cookie and round to two decimal places.
