@@ -10,4 +10,6 @@ if (pounds > 0) { // Makes sure amount is more than 0
   	euros = euros - ((euros / 100)*3) // Adds commission
     alert("In exchange for £" + pounds + " you will receive " + euros + " euros."); // Tells them how much they get
   }
-  }else {alert("Invalid Entry.")} // If someone enters 0, negative or a letter it'll go here.
+  } else if (pounds <= 0) {
+  	alert("Input error please input a number greater than 0.") // If someone inputs less than or equal to 0
+  } else {alert("Invalid Entry.")} // If someone uses a letter
