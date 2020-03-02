@@ -5,7 +5,7 @@ function convert() {
 	if (choice == "1"){
   	amountCurrency = parseInt(prompt("How many euros would you like to exchange?")); // Asks how much they want to exchange
 		value = amountCurrency - amountCurrency * 0.19; // Does the converting sum
-			if (value > 499) { // Checks the value in pounds
+			if (value > 500) { // Checks the value in pounds
       	alert("For " + amountCurrency + " euros you will recieve " + value + " pounds."); // Tells them how much they'll get
       }
       else {
@@ -19,7 +19,7 @@ function convert() {
   else if (choice == "2") {
   	amountCurrency = parseInt(prompt("How many pounds would you like to exchange?")); // Asks how much they want to exchange
     value = amountCurrency * 1.19; // Does the converting sum
-			if (amountCurrency > 499) { // Checks the value in pounds
+			if (amountCurrency > 500) { // Checks the value in pounds
       	alert("For " + amountCurrency + " pounds you will recieve " + value + " euros."); // Tells them how much they'll get
       }
       else {
