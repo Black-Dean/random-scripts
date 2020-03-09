@@ -1,3 +1,5 @@
+// Dean Black - guess.js
+
 var min = 1, max = 20, guess, correct = prompt("Enter a number:"); // Declare variables
 
 function getGuess(min, max) { // Create function using variables
