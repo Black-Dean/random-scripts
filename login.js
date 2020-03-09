@@ -1,3 +1,5 @@
+// Dean Black - login.js
+
 var correctUsername = "VeryImportantPerson"; var correctPassword = "secret"; // Sets correct login
 var username = String(prompt("What your username? ")); // Asks for username
 var password = String(prompt("What is your password? ")) // Asks for password
