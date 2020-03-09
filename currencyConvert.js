@@ -1,4 +1,6 @@
-var value, amountCurrency, commission;
+// Dean Black - currencyConvert.js
+
+var value, amountCurrency, commission; // Declares variables.
 
 function convert() {
 	choice = prompt("Are you converting\n1. Euros > Pounds.\n2. Pounds > Euros."); // Gives options to convert pound to euro or euro to pound
