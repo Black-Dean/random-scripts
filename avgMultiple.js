@@ -1,3 +1,5 @@
+// Dean Black - avgMultiple.js
+
 var amount = parseInt(prompt("How many numbers would you like to input? ")); // Ask for total amount of numbers
 var num = [], i = 0, avg, total; // Declare the rest variables
 
