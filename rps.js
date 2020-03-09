@@ -1,3 +1,5 @@
+// Dean Black - rps.js
+
 var rock = "rock", paper = "paper", scissors = "scissors", rps;
 
 //if (firstChar.toUpperCase() === rock.toUpperCase()) {}
