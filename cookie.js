@@ -1,3 +1,5 @@
+// Dean Black - cookie.js
+
 var flour = 1.50, butter = 1.25, eggs = 2.75, sugar = 0.99, flavour = 0.50, fuel = 4.75, paper = 2.50, selling; // Declare majority of variables
 
 var batchCost = flour + butter + eggs + sugar + flavour + fuel + paper; // Add all products to get batch cost
