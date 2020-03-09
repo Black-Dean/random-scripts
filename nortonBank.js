@@ -1,3 +1,5 @@
+// Dean Black - nortonBank.js
+
 var choice, deposit, withdraw, balance = 1000; // declares variables
 
 function bank() { // Creates function
