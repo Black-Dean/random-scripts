@@ -1,3 +1,5 @@
+// Dean Black - area.js
+
 var l, a, w; // Declare variables
 l = parseInt(prompt ("Enter length: ")); // Ask for length
 w = parseInt(prompt ("Enter width: ")); // Ask for width
