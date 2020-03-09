@@ -10,7 +10,8 @@ function convert() {
       	alert("For " + amountCurrency + " euros you will recieve " + value + " pounds."); // Tells them how much they'll get
       }else {
       	commission = value / 100 * 3;  // Calculates commission
-        value = value - commission; // Adds commission
+        value = Math.floor(((value - commission) * 100)/100); // Adds commission and rounds
+        
         alert("For " + amountCurrency + " euros you will recieve " + value + " pounds."); // Tells them how much they'll get
       }
 	} else if (choice == "2") {
@@ -20,11 +21,12 @@ function convert() {
       	alert("For " + amountCurrency + " pounds you will recieve " + value + " euros."); // Tells them how much they'll get
       }else {
       	commission = value / 100 * 3; // Calculates commission
-        value = value - commission; // Adds commission
+        value = Math.floor(((value - commission) * 100)/100); // Adds commission and rounds
         alert("For " + amountCurrency + " pounds you will recieve " + value + " euros."); // Tells them how much they'll get
       }
   } else if (choice == "3") {
     process.exit(1);
   }
   else {alert("Invalid Input.");}
-}convert()
+  convert();
+}convert();
