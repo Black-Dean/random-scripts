@@ -1,3 +1,5 @@
+// Dean Black - simpleExchange.js
+
 var pounds, euros, exchange = 1.19; // Declares variables
 
 pounds = parseInt(prompt("How many pounds do you want to exchange?")) // Asks them how much pounds they want to exchange
